@@ -12,7 +12,6 @@ describe ('Pagina de cadastro, cenário de cadastro incorreto', () => {
         cy.contains('Full name is required!').should('be.visible');
         cy.contains('User name is required!').should('be.visible');
         cy.contains('Password is required!').should('be.visible');
-
     })
 
     it('Deve verificar para cada campo msg do preenchimento incorreto', () =>{
